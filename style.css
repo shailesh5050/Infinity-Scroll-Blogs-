@@ -27,6 +27,7 @@ h1{
 }
 .filter{
     width: 100%;
+    font-size: 18px;
     padding: 12px;
 }
 .post{
@@ -49,4 +50,27 @@ h1{
 }
 .post .post-info{
     margin-left: 10px;
+}
+.post .number{
+    position: absolute;
+    color: #296ca8;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -15px;
+    left: -15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7px;
+}
+.loader{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+.loaderActive{
+    display: block;
 }
